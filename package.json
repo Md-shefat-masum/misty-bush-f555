@@ -4,6 +4,10 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
+    "cf-typegen": "wrangler types",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev",
+    "typegen": "wrangler types",
     "build": "remix vite:build",
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
