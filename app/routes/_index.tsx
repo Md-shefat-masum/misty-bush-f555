@@ -30,6 +30,16 @@ export default function Contact() {
                 <Link to="/contact">contact</Link>&nbsp; &nbsp;
             </div>
             Home page
+			<table>
+				<tbody>
+					{
+						users.map(i=>(<tr key={i.id}>
+							<td>{i.name}</td>
+							<td>{i.email}</td>
+						</tr>)
+					}
+				</tbody>
+			</table>
         </div>
     );
 }
