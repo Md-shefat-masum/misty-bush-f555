@@ -8,6 +8,9 @@ export default function About() {
         <Link to="/contact">contact</Link>&nbsp; &nbsp;
       </div>
        About me
+      <div>
+        <img src="/logo-dark.png" />
+      </div>
     </div>
   );
 }
