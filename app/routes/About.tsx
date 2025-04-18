@@ -3,9 +3,9 @@ export default function About() {
   return (
     <div>
       <div>
-        <Link to="/">home</Link>
-        <Link to="/about">about</Link>
-        <Link to="/contact">contact</Link>
+        <Link to="/">home</Link>&nbsp; &nbsp;
+        <Link to="/about">about</Link>&nbsp; &nbsp;
+        <Link to="/contact">contact</Link>&nbsp; &nbsp;
       </div>
        About me
     </div>
