@@ -2,9 +2,9 @@ export default function Index() {
   return (
     <div>
       <div>
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="/contact">contact</a>
+        <Link to="/">home</Link> &nbsp; &nbsp;
+        <Link to="/about">about</Link>&nbsp; &nbsp;
+        <Link to="/contact">contact</Link>&nbsp; &nbsp;
       </div>
        Home Page
     </div>
