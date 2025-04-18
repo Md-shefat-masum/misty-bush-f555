@@ -36,7 +36,7 @@ export default function Contact() {
 						users.map(i=>(<tr key={i.id}>
 							<td>{i.name}</td>
 							<td>{i.email}</td>
-						</tr>)
+						</tr>))
 					}
 				</tbody>
 			</table>
