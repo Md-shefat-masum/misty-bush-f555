@@ -7,7 +7,7 @@ export default function Contact() {
         <Link to="/about">about</Link>&nbsp; &nbsp;
         <Link to="/contact">contact</Link>&nbsp; &nbsp;
       </div>
-       About me
+       Contact me
     </div>
   );
 }
