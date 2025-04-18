@@ -12,7 +12,7 @@ export default function Contact() {
                 const res = await fetch("https://bold-bar-377d.mshefat924.workers.dev/");
                 if (!res.ok) throw new Error("Failed to fetch users");
                 const data = await res.json();
-                setUsers(data.users || []);
+                setUsers(data || []);
             } catch (err) {
                 setError(err.message || "An error occurred");
             } finally {
