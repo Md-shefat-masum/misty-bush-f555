@@ -1,18 +1,3 @@
-// import { Link } from "@remix-run/react";
-// export default function Index() {
-//   return (
-//     <div>
-//       <div>
-//         <Link to="/">home</Link>&nbsp; &nbsp;
-//         <Link to="/about">about</Link>&nbsp; &nbsp;
-//         <Link to="/contact">contact</Link>&nbsp; &nbsp;
-//       </div>
-//        Home page
-//     </div>
-//   );
-// }
-
-// app/routes/users.tsx
 import React, { useEffect, useState } from "react";
 
 type User = {
