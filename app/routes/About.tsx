@@ -1,10 +1,11 @@
+import { Link } from "@remix-run/react";
 export default function About() {
   return (
     <div>
       <div>
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="/contact">contact</a>
+        <Link to="/">home</Link>
+        <Link to="/about">about</Link>
+        <Link to="/contact">contact</Link>
       </div>
        About me
     </div>
